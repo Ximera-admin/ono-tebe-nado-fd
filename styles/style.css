@@ -1,1 +1,83 @@
-/* место для вашего кода */
+.header {
+  display:grid       
+  background-color: rgb(235, 232, 225);
+  box-sizing: border-box;
+  width: 1052px;
+  min-height: 105px;
+  margin: auto;
+  padding: 92px 24px;
+}
+
+.header__menu {
+
+}
+
+.header__menu-list {
+
+}
+
+.header__menu-item {
+
+}
+
+.header__menu-item_active {
+
+}
+
+.header__menu-link {
+
+}
+
+.header__logo-image {
+  width: 129.11px;
+  height: 104.65px; 
+}
+
+.header__menu {
+
+}
+
+.main {
+  background-color: rgb(149, 220, 241);
+  box-sizing: border-box;
+  width: 1100px;
+  min-height: 1000px;
+  margin: auto;
+  z-index: -1;
+}
+
+.cover {
+  background-color: aqua;
+  box-sizing: border-box;
+  padding: 0;
+  width: 1100px;
+  height: 757px;
+  margin: auto;
+}
+
+.lots {
+  background-color: rgb(224, 79, 35);
+  box-sizing: border-box;
+  width: 1052px;
+  height: 692px;
+  margin: auto;
+  padding: 179px 24px 0 24px;
+}
+
+.about {
+  background-color: rgb(37, 201, 119);
+  box-sizing: border-box;
+  width: 1052px;
+  height: 595px;
+  margin: auto;
+  padding: 0 24px 0 24px;
+}
+
+.footer {
+  background-color: #c300ff;
+  box-sizing: border-box;
+  width: 1000px;
+  height: 98px;
+  margin: auto;
+  padding: 0 50px 88px 50px;
+}
