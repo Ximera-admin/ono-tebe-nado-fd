@@ -1,83 +1,97 @@
 .header {
-  display:grid       
-  background-color: rgb(235, 232, 225);
-  box-sizing: border-box;
-  width: 1052px;
-  min-height: 105px;
-  margin: auto;
-  padding: 92px 24px;
+	display: grid;
+	grid-template-columns: 1fr min-content 1fr;
+	align-items: center;
+	background-color: rgb(235, 232, 225);
+	box-sizing: border-box;
+	width: 1100px;
+	height: 293px;
+	margin: auto;
 }
 
 .header__menu {
-
+	background-color: #c300ff;
 }
 
-.header__menu-list {
-
+.header__links-list {
+	background-color: brown;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	gap: 30px;
 }
 
-.header__menu-item {
+.header__links-list-item {
 
 }
-
-.header__menu-item_active {
-
+	
+.header__links-list-item_no-bullet {
+	list-style-type: none;
 }
 
-.header__menu-link {
+.header__link_active {
+	}
 
+.header__link {
+		list-style: circle;
+	}
 }
 
 .header__logo-image {
-  width: 129.11px;
-  height: 104.65px; 
+	width: 148px;
+	height: 105px;
 }
 
-.header__menu {
-
+.header__adress {
+	font-style: normal;
+	display: grid;
+	background-color: chocolate;
+	max-width: 200px;
+	justify-self: end;
 }
 
 .main {
-  background-color: rgb(149, 220, 241);
-  box-sizing: border-box;
-  width: 1100px;
-  min-height: 1000px;
-  margin: auto;
-  z-index: -1;
+	background-color: rgb(149, 220, 241);
+	box-sizing: border-box;
+	width: 1100px;
+	min-height: 1000px;
+	margin: auto;
+	z-index: -1;
 }
 
 .cover {
-  background-color: aqua;
-  box-sizing: border-box;
-  padding: 0;
-  width: 1100px;
-  height: 757px;
-  margin: auto;
+	background-color: aqua;
+	box-sizing: border-box;
+	padding: 0;
+	width: 1100px;
+	height: 757px;
+	margin: auto;
 }
 
 .lots {
-  background-color: rgb(224, 79, 35);
-  box-sizing: border-box;
-  width: 1052px;
-  height: 692px;
-  margin: auto;
-  padding: 179px 24px 0 24px;
+	background-color: rgb(224, 79, 35);
+	box-sizing: border-box;
+	width: 1052px;
+	height: 692px;
+	margin: auto;
+	padding: 179px 24px 0 24px;
 }
 
 .about {
-  background-color: rgb(37, 201, 119);
-  box-sizing: border-box;
-  width: 1052px;
-  height: 595px;
-  margin: auto;
-  padding: 0 24px 0 24px;
+	background-color: rgb(37, 201, 119);
+	box-sizing: border-box;
+	width: 1052px;
+	height: 595px;
+	margin: auto;
+	padding: 0 24px 0 24px;
 }
 
 .footer {
-  background-color: #c300ff;
-  box-sizing: border-box;
-  width: 1000px;
-  height: 98px;
-  margin: auto;
-  padding: 0 50px 88px 50px;
+	background-color: #c300ff;
+	box-sizing: border-box;
+	width: 1000px;
+	height: 98px;
+	margin: auto;
+	padding: 0 50px 88px 50px;
 }
