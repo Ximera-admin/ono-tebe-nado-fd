@@ -1,99 +1,104 @@
 .header {
-	display: grid;
-	grid-template-columns: 1fr min-content 1fr 50px;
-	align-items: center;
-	box-sizing: border-box;
-	width: 1100px;
-	height: 293px;
-	margin: auto;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  box-sizing: border-box;
+  width: 1100px;
+  height: 293px;
+  margin: auto;
 }
 
 .header__menu {
-	font-weight: 400;
-	font-size: 18px;
+  width: 391.48px;
+  height: 22px;
+  font-weight: 400;
+  font-size: 18px;
+  margin: auto;
 }
 
 .header__links-list {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-	gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 34px;
+  text-underline-offset: 4px;
+  list-style: circle;
+	margin: auto;
 }
 
 .header__links-list-item {
-
 }
-	
+
 .header__links-list-item_no-bullet {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 .header__link_active {
-	}
+  text-decoration: none;
+}
 
 .header__link {
-		list-style: circle;
-	}
+}
 
 .header__logo-image {
-	width: 148px;
-	height: 105px;
+  width: 148px;
+  height: 105px;
 }
 
 .header__adress {
-	font-style: normal;
-	font-family: Raleway, sans-serif;
-	font-weight: 400;
-	font-size: 18px;
-	display: grid;
-	max-width: none;
-	justify-self: end;
-	width: 240px;
-	height: 98px;
+  font-style: normal;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  display: grid;
+  justify-self: end;
+  width: 61%;
+  height: 98px;
+  text-underline-offset: 4px;
 }
 
 .main {
-	background-color: rgb(149, 220, 241);
-	box-sizing: border-box;
-	width: 1100px;
-	min-height: 1000px;
-	margin: auto;
-	z-index: -1;
+  background-color: rgb(149, 220, 241);
+  box-sizing: border-box;
+  width: 1100px;
+  min-height: 1000px;
+  margin: auto;
+  z-index: -1;
 }
 
 .cover {
-	background-color: aqua;
-	box-sizing: border-box;
-	padding: 0;
-	width: 1100px;
-	height: 757px;
-	margin: auto;
+  background-color: aqua;
+  box-sizing: border-box;
+  padding: 0;
+  width: 1100px;
+  height: 757px;
+  margin: auto;
 }
 
 .lots {
-	background-color: rgb(224, 79, 35);
-	box-sizing: border-box;
-	width: 1052px;
-	height: 692px;
-	margin: auto;
-	padding: 179px 24px 0 24px;
+  background-color: rgb(224, 79, 35);
+  box-sizing: border-box;
+  width: 1052px;
+  height: 692px;
+  margin: auto;
+  padding: 179px 24px 0 24px;
 }
 
 .about {
-	background-color: rgb(37, 201, 119);
-	box-sizing: border-box;
-	width: 1052px;
-	height: 595px;
-	margin: auto;
-	padding: 0 24px 0 24px;
+  background-color: rgb(37, 201, 119);
+  box-sizing: border-box;
+  width: 1052px;
+  height: 595px;
+  margin: auto;
+  padding: 0 24px 0 24px;
 }
 
 .footer {
-	background-color: #c300ff;
-	box-sizing: border-box;
-	width: 1000px;
-	height: 98px;
-	margin: auto;
-	padding: 0 50px 88px 50px;
+  background-color: #c300ff;
+  box-sizing: border-box;
+  width: 1000px;
+  height: 98px;
+  margin: auto;
+  padding: 0 50px 88px 50px;
 }
