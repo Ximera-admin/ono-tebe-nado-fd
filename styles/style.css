@@ -1,8 +1,7 @@
 .header {
 	display: grid;
-	grid-template-columns: 1fr min-content 1fr;
+	grid-template-columns: 1fr min-content 1fr 50px;
 	align-items: center;
-	background-color: rgb(235, 232, 225);
 	box-sizing: border-box;
 	width: 1100px;
 	height: 293px;
@@ -10,11 +9,11 @@
 }
 
 .header__menu {
-	background-color: #c300ff;
+	font-weight: 400;
+	font-size: 18px;
 }
 
 .header__links-list {
-	background-color: brown;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -44,10 +43,14 @@
 
 .header__adress {
 	font-style: normal;
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	font-size: 18px;
 	display: grid;
-	background-color: chocolate;
-	max-width: 200px;
+	max-width: none;
 	justify-self: end;
+	width: 240px;
+	height: 98px;
 }
 
 .main {
