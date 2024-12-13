@@ -66,7 +66,6 @@
   background-color: rgb(149, 220, 241);
   box-sizing: border-box;
   width: 1100px;
-  min-height: 1000px;
   margin: auto;
   z-index: -1;
 }
