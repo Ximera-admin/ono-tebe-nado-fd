@@ -89,7 +89,7 @@
 }
 
 .overlay {
-  position:absolute;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -102,7 +102,7 @@
 
 .cover__title {
   display: grid;
-  grid-template-columns: 1000px;
+  grid-template-columns: 100%;
   grid-template-rows: 1fr 1fr 1fr;
   box-sizing: border-box;
   width: 1000px; 
@@ -112,9 +112,7 @@
 }
 
 .title__upper-part {
-  position: relative;
-  right: 356px;
-  top: -7px;
+  justify-self: left;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 100px;
@@ -124,11 +122,10 @@
   box-sizing: border-box;
   width: 286px; 
   height: 115px;
-  margin: auto;
+  
 }
 
 .title__middle-part {
-  position: relative;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 100px;
@@ -142,9 +139,9 @@
 }
 
 .title__lower-part {
-  position: relative;
-  left: 308px;
-  top: 7px;
+  justify-self: right;
+  align-self: flex-end;
+  align-items: baseline;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 100px;
@@ -154,9 +151,7 @@
   box-sizing: border-box;
   width: 387px; 
   height: 115px;
-  margin: auto;
 }
-
 
 .cover__description {
   display: flex;
