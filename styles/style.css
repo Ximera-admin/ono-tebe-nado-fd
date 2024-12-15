@@ -43,9 +43,6 @@
   text-decoration: none;
 }
 
-.header__link {
-}
-
 .header__logo-image {
 	width: 148px;
   height: 105px;
@@ -67,7 +64,6 @@
 }
 
 .main {
-  background-color: rgb(149, 220, 241);
   box-sizing: border-box;
   width: 1100px;
   margin: auto;
@@ -95,9 +91,9 @@
   bottom: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.60);
+  /* width: 1100px;
+  height: 757px; */
   z-index: 1;  
-  width: 1100px;
-  height: 757px;
 }
 
 .cover__title {
@@ -198,21 +194,186 @@
 }
 
 .lots {
-  background-color: rgb(224, 79, 35);
+  /* background-color: chartreuse; */
+  position: relative;
   box-sizing: border-box;
   width: 1052px;
-  height: 692px;
+  height: 723px;
   margin: auto;
-  padding: 179px 24px 0 24px;
+  margin-top: 181px;
+}
+
+.lots__heading {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-left: 43px;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+  width: 121px;
+  height: 47px;
+}
+
+.lots__card-list {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 1052px;
+  height: 596px;
+  gap: 20px;  
+}
+
+.lots__card-list-item {
+  position: relative;
+  box-sizing: border-box;
+  width: 334px;
+  min-height: 596px;
+  margin: auto;
+}
+
+.card-link {
+  box-sizing: border-box;
+  text-decoration: none;
+  width: 334px;
+  height: 596px;
+  margin: auto;
+}
+
+.card {
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 334px;
+  height: 596px;
+  
+}
+
+.card_type_film {
+  background-image: url("../images/card-lot-01.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card_type_book {
+  background-image: url("../images/card-lot-02.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card_type_picture {
+  background-image: url("../images/card-lot-03.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card__title {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  font-style: solid;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: white;
+  margin-top: 50px;
+  box-sizing: border-box;
+  width: 254px;
+  height: auto;
+}
+
+.card__text {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: solid;
+  color: white;
+  line-height: 24px;
+  margin-bottom: 46px;
+  box-sizing: border-box;
+  width: 254px;
+  height: auto;
+}
+
+.container__link-more {
+  /* background-color: darkgreen; */
+  height: 53px;
+  vertical-align: middle;
+  line-height: 87px;
+}
+
+.lots__look-more-link {
+  /* background-color: crimson; */
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-underline-offset: 4px;
+  margin-left: 43px;
+  box-sizing: border-box;
 }
 
 .about {
-  background-color: rgb(37, 201, 119);
+  /* background-color: darkgreen; */
+  display: grid;
+  grid-template-columns: 334px auto;
+  justify-items: center;
   box-sizing: border-box;
   width: 1052px;
   height: 595px;
   margin: auto;
-  padding: 0 24px 0 24px;
+  margin-top: 155px;
+}
+
+.about__column {
+}
+
+.about__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px; 
+  height: 240px;
+  background: black;
+  border-radius: 50%;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+}
+
+.about__title {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+.about__text-paragraph-1 {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+.about__text-paragraph-2 {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 6px;
+  margin-left: 25px;
+  margin-top: 20px;
 }
 
 .footer {
