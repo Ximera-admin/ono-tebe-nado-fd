@@ -1,1 +1,1 @@
-https://github.com/Ximera-admin/ono-tebe-nado
+https://github.com/Ximera-admin/ono-tebe-nado-fd
