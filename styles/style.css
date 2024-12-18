@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 20px 20px 20px 20px;
+  padding: 92px 50px 96px 50px;
 }
 
 .header__menu {
@@ -12,9 +12,7 @@
 
 .header__links-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 34px;
+  gap: 33px;
 }
 
 .header__links-list-item {
@@ -33,21 +31,21 @@
 .header__logo {
   display: block;
   width: 148px;
-  height: 105.84px;
+  height: 105px;
 }
 
 .header__logo-image {
-  width: 124.05px;
-  height: 94.84px;
+  height: 100%;
 }
 
 .header__adress {
-  display: grid;
-
   justify-self: end;
   font-weight: 400;
   font-size: 18px;
   text-underline-offset: 4px;
+  line-height: 24.3px;
+  max-width: 240px;
+ 
 }
 
 .main {
@@ -55,15 +53,11 @@
 }
 
 .cover {
-  display: flex;
   position: relative;
-  flex-direction: column;
-  width: 1100px;
-  min-height: 757px;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
-  padding-top: 113px;
+  padding: 165px 50px 50px 50px;
 }
 
 .overlay {
@@ -78,75 +72,65 @@
 .cover__title {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  width: 1000px;
-  height: 385px;
-  margin: auto;
+  position: relative;
   z-index: 1;
+  gap: 19.8px;
 }
 
-.title__upper-part {
-  justify-self: left;
-  width: 286px;
-  height: 115px;
+.aligned-text {
   font-weight: 700;
   font-size: 100px;
   color: white;
   letter-spacing: 30px;
   text-transform: uppercase;
+  line-height: 115px;
 }
 
-.title__middle-part {
-  width: 339px;
-  height: 115px;
+.aligned-text_center {
+  justify-self: center;
   font-weight: 700;
   font-size: 100px;
   color: white;
   letter-spacing: 30px;
   text-transform: uppercase;
-  margin: auto;
+  line-height: 115px;
+  margin-right: -31px;
 }
 
-.title__lower-part {
-  width: 387px;
-  height: 115px;
-  justify-self: right;
-  align-self: flex-end;
+.aligned-text_right {
+  justify-self: end;
   font-weight: 700;
   font-size: 100px;
   text-transform: uppercase;
   color: white;
   letter-spacing: 30px;
+  line-height: 115px;
+  margin-right: -30px;
+}
+
+.letter-spacing-extended {
+}
+
+.no-letter-spacing {
 }
 
 .cover__description {
   display: flex;
-  width: 1000px;
-  height: 51px;
-  margin-left: -20px;
-  margin: auto;
   gap: 100px;
+  margin-top: 106px;
 }
 
 .cover__description-text {
   position: relative;
-  left: 1px;
-  top: 3px;
-  width: 637px;
-  height: 28px;
   font-weight: 400;
   font-size: 22px;
   word-spacing: 18px;
   text-transform: uppercase;
   color: white;
-  margin: auto;
 }
 
 .bet_button {
   position: relative;
-  left: 1px;
-  top: 3px;
-  width: 256px;
-  min-height: 51px;
   border: 1px solid white;
   font-family: Raleway sans-serif;
   text-transform: uppercase;
@@ -154,7 +138,6 @@
   font-size: 22px;
   color: white;
   background: transparent;
-  margin: auto;
   cursor: pointer;
 }
 
