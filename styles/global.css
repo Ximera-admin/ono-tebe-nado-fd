@@ -42,5 +42,6 @@ address {
 }
 
 button { 
-  border: unset; background: unset;
+  border: unset; 
+  background: unset;
 }
