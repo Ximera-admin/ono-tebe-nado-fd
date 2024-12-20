@@ -52,10 +52,13 @@
 }
 
 .cover {
+  padding: 165px 50px 50px 50px;
+}
+
+.cover__container-for-the-background {
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
-  padding: 165px 50px 50px 50px;
 }
 
 .overlay {
@@ -140,14 +143,13 @@
 .lots__card-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: start;
   width: 1052px;
   gap: 25px;
 }
 
 .lots__card-list-item {
   position: relative;
-  flex-grow: 1;
   min-height: 596px;
   width: 334px;
   background-size: cover;
@@ -221,7 +223,7 @@
   justify-items: center;
   width: 1052px;
   margin: auto;
-  margin-top: 157px;
+  margin-top: 122px;
 }
 
 .about__logo {
