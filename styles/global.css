@@ -41,3 +41,6 @@ address {
   font-style: normal;
 }
 
+button { 
+  border: unset; background: unset;
+}
