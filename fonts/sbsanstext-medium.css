@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'SBSansText-Medium';
+	src: url('../fonts/sbsanstext-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sbsanstext-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sbsanstext-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sbsanstext-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sbsanstext-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sbsanstext-medium.svg#sbsanstext-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
